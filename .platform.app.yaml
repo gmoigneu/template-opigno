@@ -31,7 +31,7 @@ source:
    operations:
         update_logo:
             command: |
-                cd init/img/
+                cd web/themes/contrib/platon
                 rm logo.png
                 wget https://img.moigneu.com/f/logo.png
                 git add logo.png
